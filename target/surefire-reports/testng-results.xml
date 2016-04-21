@@ -1,53 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite A" duration-ms="524" started-at="2016-04-21T15:59:46Z" finished-at="2016-04-21T15:59:47Z">
+  <suite name="Suite A" duration-ms="402" started-at="2016-04-21T17:03:41Z" finished-at="2016-04-21T17:03:42Z">
     <groups>
     </groups>
-    <test name="Fifth Class" duration-ms="110" started-at="2016-04-21T15:59:46Z" finished-at="2016-04-21T15:59:46Z">
+    <test name="First Class" duration-ms="64" started-at="2016-04-21T17:03:41Z" finished-at="2016-04-21T17:03:41Z">
+      <class name="com.qtp.selenium.Test1">
+        <test-method status="PASS" signature="abc()[pri:0, instance:com.qtp.selenium.Test1@47f37ef1]" name="abc" duration-ms="30" started-at="2016-04-21T10:03:41Z" finished-at="2016-04-21T10:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+      </class> <!-- com.qtp.selenium.Test1 -->
+    </test> <!-- First Class -->
+    <test name="Fifth Class" duration-ms="2" started-at="2016-04-21T17:03:42Z" finished-at="2016-04-21T17:03:42Z">
       <class name="package1.Test3">
-        <test-method status="PASS" signature="test3()[pri:0, instance:package1.Test3@4ec6a292]" name="test3" duration-ms="51" started-at="2016-04-21T08:59:46Z" finished-at="2016-04-21T08:59:46Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:package1.Test3@5594a1b5]" name="test3" duration-ms="0" started-at="2016-04-21T10:03:42Z" finished-at="2016-04-21T10:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
       </class> <!-- package1.Test3 -->
     </test> <!-- Fifth Class -->
-    <test name="Second Class" duration-ms="13" started-at="2016-04-21T15:59:46Z" finished-at="2016-04-21T15:59:47Z">
+    <test name="Second Class" duration-ms="10" started-at="2016-04-21T17:03:42Z" finished-at="2016-04-21T17:03:42Z">
       <class name="com.qtp.selenium.Class2">
-        <test-method status="PASS" signature="Class1_2()[pri:0, instance:com.qtp.selenium.Class2@49e4cb85]" name="Class1_2" duration-ms="4" started-at="2016-04-21T08:59:46Z" finished-at="2016-04-21T08:59:47Z">
+        <test-method status="PASS" signature="Class1_2()[pri:0, instance:com.qtp.selenium.Class2@b684286]" name="Class1_2" duration-ms="2" started-at="2016-04-21T10:03:42Z" finished-at="2016-04-21T10:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Class1_2 -->
-        <test-method status="PASS" signature="Class2_1()[pri:0, instance:com.qtp.selenium.Class2@49e4cb85]" name="Class2_1" duration-ms="1" started-at="2016-04-21T08:59:47Z" finished-at="2016-04-21T08:59:47Z">
+        <test-method status="PASS" signature="Class2_1()[pri:0, instance:com.qtp.selenium.Class2@b684286]" name="Class2_1" duration-ms="2" started-at="2016-04-21T10:03:42Z" finished-at="2016-04-21T10:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Class2_1 -->
-        <test-method status="PASS" signature="Class2_3()[pri:0, instance:com.qtp.selenium.Class2@49e4cb85]" name="Class2_3" duration-ms="2" started-at="2016-04-21T08:59:47Z" finished-at="2016-04-21T08:59:47Z">
+        <test-method status="PASS" signature="Class2_3()[pri:0, instance:com.qtp.selenium.Class2@b684286]" name="Class2_3" duration-ms="2" started-at="2016-04-21T10:03:42Z" finished-at="2016-04-21T10:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Class2_3 -->
       </class> <!-- com.qtp.selenium.Class2 -->
     </test> <!-- Second Class -->
-    <test name="Third Class" duration-ms="13" started-at="2016-04-21T15:59:47Z" finished-at="2016-04-21T15:59:47Z">
+    <test name="Third Class" duration-ms="13" started-at="2016-04-21T17:03:42Z" finished-at="2016-04-21T17:03:42Z">
       <class name="com.qtp.selenium.Class3">
-        <test-method status="PASS" signature="Class3_1()[pri:0, instance:com.qtp.selenium.Class3@1e643faf]" name="Class3_1" duration-ms="1" started-at="2016-04-21T08:59:47Z" finished-at="2016-04-21T08:59:47Z">
+        <test-method status="PASS" signature="Class3_1()[pri:0, instance:com.qtp.selenium.Class3@5b464ce8]" name="Class3_1" duration-ms="0" started-at="2016-04-21T10:03:42Z" finished-at="2016-04-21T10:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Class3_1 -->
-        <test-method status="PASS" signature="Class3_2()[pri:0, instance:com.qtp.selenium.Class3@1e643faf]" name="Class3_2" duration-ms="2" started-at="2016-04-21T08:59:47Z" finished-at="2016-04-21T08:59:47Z">
+        <test-method status="PASS" signature="Class3_2()[pri:0, instance:com.qtp.selenium.Class3@5b464ce8]" name="Class3_2" duration-ms="1" started-at="2016-04-21T10:03:42Z" finished-at="2016-04-21T10:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Class3_2 -->
-        <test-method status="PASS" signature="Class3_3()[pri:0, instance:com.qtp.selenium.Class3@1e643faf]" name="Class3_3" duration-ms="1" started-at="2016-04-21T08:59:47Z" finished-at="2016-04-21T08:59:47Z">
+        <test-method status="PASS" signature="Class3_3()[pri:0, instance:com.qtp.selenium.Class3@5b464ce8]" name="Class3_3" duration-ms="3" started-at="2016-04-21T10:03:42Z" finished-at="2016-04-21T10:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Class3_3 -->
       </class> <!-- com.qtp.selenium.Class3 -->
     </test> <!-- Third Class -->
-    <test name="Fourth Class" duration-ms="5" started-at="2016-04-21T15:59:47Z" finished-at="2016-04-21T15:59:47Z">
+    <test name="Fourth Class" duration-ms="2" started-at="2016-04-21T17:03:42Z" finished-at="2016-04-21T17:03:42Z">
       <class name="package1.Test2">
-        <test-method status="PASS" signature="test2()[pri:0, instance:package1.Test2@39ba5a14]" name="test2" duration-ms="2" started-at="2016-04-21T08:59:47Z" finished-at="2016-04-21T08:59:47Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:package1.Test2@7a0ac6e3]" name="test2" duration-ms="1" started-at="2016-04-21T10:03:42Z" finished-at="2016-04-21T10:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->

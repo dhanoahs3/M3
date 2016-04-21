@@ -11,12 +11,13 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class AppTest {
+public class Test1 {
 //	@Parameters("browser")
 
- //@Test(dataProvider="getData")
- public void abc() throws MalformedURLException{
-	System.out.println("Printing abc"); 
+ @Test
+ //(dataProvider="getData")
+ public void abc(){
+	System.out.println("****************************************|Printing abc*************************"); 
 	//System.out.println(b);
 	//Note always run this test from testng suite and not alone otherwise an exception will be thrown
 	

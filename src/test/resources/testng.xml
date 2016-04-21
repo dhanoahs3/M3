@@ -2,13 +2,21 @@
 
 <suite name="Suite A" >
 
+<test name="First Class">
 
+    <classes>
+        <class name="com.qtp.selenium.Test1" ></class>  
+    </classes>
+</test>
 <test name="Fifth Class">
 
     <classes>
         <class name="package1.Test3" ></class>  
     </classes>
 </test>
+
+
+
 
 
 <test name="Second Class">
