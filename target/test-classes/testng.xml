@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite A" >
+
+
+<test name="Fifth Class">
+
+    <classes>
+        <class name="package1.Test3" ></class>  
+    </classes>
+</test>
+
+
+<test name="Second Class">
+    <classes>
+        <class name="com.qtp.selenium.Class2" ></class>  
+    </classes>
+</test>
+<test name="Third Class">
+    <classes>
+        <class name="com.qtp.selenium.Class3" ></class>  
+    </classes>
+</test>
+
+<test name="Fourth Class">
+    <classes>
+        <class name="package1.Test2" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>
